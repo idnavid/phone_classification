@@ -7,7 +7,7 @@ import numpy as np
 
 
 if __name__=='__main__':
-
+    # Test Google Cloud connection
     # Read TIMIT data
     root = "/Users/navidshokouhi/Software_dir/kaldi/egs/timit/feature_extraction/"
     x_trn,y_trn,x_tst,y_tst = gen_data(root)
